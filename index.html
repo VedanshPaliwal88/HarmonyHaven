@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./images/annie-spratt-4Hpljf9Y1ko-unsplash.jpg" alt="image of a guitar" class="guitar">
+            <a href="https://www.theodinproject.com"><img src="./images/odin-logo.png" alt="odin-logo" class="logo"></a>
+            <p class="credit">The Odin Project</p>
+            <p class="footer">Designed by <a href="https://github.com/VedanshPaliwal88">Vedansh</a> for <a href="https://www.theodinproject.com">The Odin Project</a></p>
+        </div>
+        <div class="right">
+            <p id="rightHeading">Discover your musical potential <u>at your own pace</u>.</p>
+            
+            <div class="registration">
+                <p id="registrationHeading">Sign up today to begin your personalized musical journey and turn your passion into progress.</p>
+                <form action="#">
+                    <fieldset>
+                        <div class="inputs">
+                            <div class="box">
+                                <label for="fname">first name</label>
+                                <input type="text" id="fname">
+                            </div>
+
+                            <div class="box">
+                                <label for="lname">last name</label>
+                                <input type="text" id="lname">
+                            </div>
+
+                            <div class="box">
+                                <label for="email">email</label>
+                                <input type="email" id="email">
+                            </div>
+
+                            <div class="box">
+                                <label for="phoneNo">phone number</label>
+                                <input type="tel" id="phoneNo" pattern="^\d{10}$">
+                            </div>
+
+                            <div class="box">
+                                <label for="pswrd">password</label>
+                                <input type="password" id="pswrd" required>
+                            </div>
+
+                            <div class="box">
+                                <label for="cpswrd">confirm password</label>
+                                <input type="password" id="cpswrd" required>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="registrationBtn">Register</button>
+                    </fieldset>
+                </form>
+            </div>
+            <p>Join us now and embark on a tailored musical adventure designed just for you.</p>
+            <p>Already got an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
